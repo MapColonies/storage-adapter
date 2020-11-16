@@ -1,0 +1,68 @@
+{
+  "name": "@map-colonies/storeAdapter",
+  "version": "1.0.0",
+  "description": "The package wraps basic IO operations for filesystem and object storage by providing a unified API",
+  "main": "index.js",
+  "homepage": "https://github.com/MapColonies/stoage-adapter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MapColonies/stoage-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MapColonies/stoage-adapter/issues"
+  },
+  "scripts": {
+    "test": "npm run lint && mocha -- tests/**/*.js",
+    "test:cov": "nyc mocha -- tests/**/*.js",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js",
+    "release": "standard-version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@map-colonies/mc-logger": "^1.1.0",
+    "aws-sdk": "^2.729.0",
+    "bluebird": "^3.7.2",
+    "config": "^3.3.1",
+    "file-uri-to-path": "^2.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "kontainer-di": "^0.9.9",
+    "lodash": "^4.17.19",
+    "s3-download": "^1.0.0",
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^11.0.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "commitlint": "^9.1.0",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "should": "^8.2.2",
+    "sinon": "^1.17.4",
+    "standard-version": "^9.0.0",
+    "xunit-file": "^1.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
