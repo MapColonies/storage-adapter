@@ -36,7 +36,9 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-conventional": "^11.0.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
     "commitlint": "^9.1.0",
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^6.8.0",
@@ -46,13 +48,11 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
+    "mocha": "^8.2.1",
     "nyc": "^15.1.0",
-    "standard-version": "^8.0.2",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^5.2.0",
-    "mocha": "^2.4.5",
-    "sinon": "^1.17.4",
     "should": "^8.2.2",
+    "sinon": "^1.17.4",
+    "standard-version": "^9.0.0",
     "xunit-file": "^1.0.0"
   },
   "husky": {

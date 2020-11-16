@@ -1,5 +1,5 @@
 # Custom gitignors ignores goes here, below
-
+tests/data
 #IDE
 .vscode
 .idea
