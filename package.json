@@ -30,7 +30,7 @@
     "fs": "0.0.1-security",
     "fs-extra": "^9.0.1",
     "kontainer-di": "^0.9.9",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "s3-download": "^1.0.0",
     "s3-upload-stream": "^1.0.7"
   },
