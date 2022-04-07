@@ -22,7 +22,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@map-colonies/mc-logger": "^1.2.1",
+    "@map-colonies/mc-logger": "^2.0.0",
     "aws-sdk": "^2.814.0",
     "bluebird": "^3.7.2",
     "config": "^3.3.3",
